@@ -23,29 +23,29 @@ public class TestBattle {
         Battle battle = new Battle();
 
         if (i == 1){
-            battle.addAlly(new Farfetch("Саня"));
+            battle.addAlly(new Farfetch("Хабиб"));
 
-            battle.addFoe(new Skuntank("Ваня"));
+            battle.addFoe(new Skuntank("Макгрегор"));
         }else if(i == 2){
-            battle.addAlly(new Stunky("Гена"));
+            battle.addAlly(new Stunky("Артур"));
 
-            battle.addFoe(new Pichu("Даня"));
+            battle.addFoe(new Pichu("Шварц"));
         }else if(i == 3){
-            battle.addAlly(new Pikachu("Олег"));
+            battle.addAlly(new Pikachu("Саб-Зиро"));
 
-            battle.addFoe(new Skuntank("Митя"));
+            battle.addFoe(new Skuntank("Скорпион"));
         }else if(i == 4){
-            battle.addAlly(new Skuntank("Саша"));
+            battle.addAlly(new Skuntank("Брюс Ли"));
 
-            battle.addFoe(new Stunky("Коля"));
+            battle.addFoe(new Stunky("Джеки Чан"));
         }else if(i == 5){
-            battle.addAlly(new Pichu("Тимур"));
+            battle.addAlly(new Pichu("Рокки"));
 
-            battle.addFoe(new Skuntank("Женя"));
+            battle.addFoe(new Skuntank("Чак Норрис"));
         }else{
-            battle.addAlly(new Raichu("Паша"));
+            battle.addAlly(new Raichu("Путин"));
 
-            battle.addFoe(new Skuntank("Артур"));
+            battle.addFoe(new Skuntank("Трамп"));
         }
         battle.go();
 
