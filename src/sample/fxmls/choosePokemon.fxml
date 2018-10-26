@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.ChoosePokemon">
+    <children>
+      <AnchorPane fx:id="toolPikachu" layoutX="17.0" layoutY="3.0" prefHeight="130.0" prefWidth="220.0" style="-fx-background-color: #000080;" AnchorPane.leftAnchor="1.0" AnchorPane.topAnchor="1.0">
+         <children>
+            <Label fx:id="label_pikachu" layoutX="100.0" layoutY="2.0" lineSpacing="4.0" text="Метод&#10;getAllStat" textFill="WHITE" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="2.0" />
+            <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@../../picture/if__pikachu_1337497.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="31.0" layoutY="107.0" text="Pikachu" textFill="WHITE" AnchorPane.leftAnchor="28.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="toolRaichu" layoutX="34.0" layoutY="249.0" prefHeight="130.0" prefWidth="220.0" style="-fx-background-color: #000080;" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0">
+         <children>
+            <Label fx:id="label_raichu" layoutX="100.0" layoutY="1.0" lineSpacing="4.0" text="Метод&#10;getAllStat" textFill="WHITE" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="1.0" />
+            <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@../../picture/if_Pokemon_Go-28_1320013.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="39.0" layoutY="100.0" text="Raichu" textFill="WHITE" AnchorPane.leftAnchor="35.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="toolPichu" layoutX="25.0" layoutY="135.0" prefHeight="130.0" prefWidth="220.0" style="-fx-background-color: #000080;" AnchorPane.bottomAnchor="135.0" AnchorPane.leftAnchor="1.0">
+         <children>
+            <Label fx:id="label_pichu" layoutX="100.0" layoutY="1.0" lineSpacing="4.0" text="Метод&#10;getAllStat" textFill="WHITE" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="1.0" />
+            <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@../../picture/if__meowth_1337472.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="32.0" layoutY="101.0" text="Pichu" textFill="WHITE" AnchorPane.leftAnchor="37.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="toolFarfetch" layoutX="347.0" layoutY="4.0" prefHeight="130.0" prefWidth="220.0" style="-fx-background-color: #000080;" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="1.0">
+         <children>
+            <Label fx:id="label_farfetch" layoutX="100.0" layoutY="3.0" lineSpacing="4.0" text="Метод&#10;getAllStat" textFill="WHITE" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="3.0" />
+            <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@../../picture/if_Pokemon_Go-13_1320028.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="30.0" layoutY="100.0" text="Farfetch" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="toolSkuntank" layoutX="366.0" layoutY="138.0" prefHeight="130.0" prefWidth="220.0" style="-fx-background-color: #000080;" AnchorPane.bottomAnchor="135.0" AnchorPane.leftAnchor="350.0">
+         <children>
+            <Label fx:id="label_skutank" layoutX="100.0" layoutY="3.0" lineSpacing="4.0" text="Метод&#10;getAllStat" textFill="WHITE" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="3.0" />
+            <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@../../picture/if__eevee_1337469.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="26.0" layoutY="104.0" text="Skuntank" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="toolStunky" layoutX="342.0" layoutY="262.0" prefHeight="130.0" prefWidth="220.0" style="-fx-background-color: #000080;" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="350.0">
+         <children>
+            <Label fx:id="label_stanky" layoutX="100.0" layoutY="2.0" lineSpacing="4.0" text="Метод&#10;getAllStat" textFill="WHITE" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="2.0" />
+            <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@../../picture/if_Pokemon_Go-37_1320004.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="35.0" layoutY="101.0" text="Stunky" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="choosePikachu" layoutX="227.0" mnemonicParsing="false" prefHeight="130.0" prefWidth="120.0" text="Pikachu" AnchorPane.leftAnchor="225.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="choosePichu" layoutX="232.0" layoutY="134.0" mnemonicParsing="false" prefHeight="130.0" prefWidth="120.0" text="Pichu" AnchorPane.leftAnchor="225.0" AnchorPane.topAnchor="135.0">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="chooseRaichu" layoutX="234.0" layoutY="267.0" mnemonicParsing="false" onAction="#firstButton" prefHeight="130.0" prefWidth="120.0" text="Raichu" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="225.0">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="chooseFarfetch" layoutX="577.0" layoutY="4.0" mnemonicParsing="false" prefHeight="130.0" prefWidth="120.0" text="Farfetch" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="1.0">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="chooseSkuntank" layoutX="581.0" layoutY="138.0" mnemonicParsing="false" prefHeight="130.0" prefWidth="120.0" text="Skuntank" AnchorPane.bottomAnchor="135.0" AnchorPane.rightAnchor="5.0">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="chooseStanky" layoutX="580.0" layoutY="265.0" mnemonicParsing="false" prefHeight="130.0" prefWidth="120.0" text="Stunky" AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="5.0">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+    </children>
+</AnchorPane>
